@@ -1,6 +1,7 @@
 # Transfer Entropy Analysis Pipeline
 
 A standalone, Colab-ready pipeline for computing transfer entropy (TE) on EDF/FIF files, based on IDTxl and spectral multivariate transfer entropy by Edoardo Pinzuti.
+(Run's best in GPU environment)
 
 ## Features
 
@@ -40,3 +41,4 @@ Install via pip: `pip install mne numpy scipy matplotlib seaborn joblib numba`
 ## License
 
 MIT License - see LICENSE file.
+
