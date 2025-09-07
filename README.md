@@ -1,7 +1,7 @@
 # Transfer Entropy Analysis Pipeline
 
 A standalone, Colab-ready pipeline for computing transfer entropy (TE) on EDF/FIF files, based on IDTxl and spectral multivariate transfer entropy by Edoardo Pinzuti.
-(Run's best in GPU environment)
+Inspired by Daniel Toker's paper. (Run's best in GPU environment)
 
 ## Features
 
@@ -37,8 +37,10 @@ Install via pip: `pip install mne numpy scipy matplotlib seaborn joblib numba`
 - IDTxl GitHub: https://github.com/pwollstadt/IDTxl
 - Spectral TE branch: https://github.com/pwollstadt/IDTxl/tree/feature_spectral_te/
 - Wollstadt, P., Lizier, J. T., Vicente, R., Finn, C., Martinez-Zarzuela, M., Mediano, P., Novelli, L., & Wibral, M. (2018). IDTxl: The Information Dynamics Toolkit xl: a Python package for the efficient analysis of multivariate information dynamics in networks. Journal of Open Source Software, 4(34), 1081. https://doi.org/10.21105/joss.01081
+- Toker D, Müller E, Miyamoto H, et al. Criticality supports cross-frequency cortical-thalamic information transfer during conscious states. Elife. 2024;13:e86547. Published 2024 Jan 5. doi:10.7554/eLife.86547
 
 ## License
 
 MIT License - see LICENSE file.
+
 
